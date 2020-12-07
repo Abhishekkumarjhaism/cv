@@ -1,0 +1,164 @@
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+<style>
+.dropdown{
+	display:inline-block;
+}
+.button{
+	padding:10px 80px;
+	fone-size:20px;
+	align:left;
+}
+#drop-content a{
+	display:block;
+	font-size:20px;
+	background:red;
+	color:yellow;
+	text-decoration:none;
+	padding:10px 20px;
+	margin-right:1px;
+}
+
+</style>
+<script>
+	function show_hide()
+	{
+		var click=document.getElementById('drop-content');
+		if(click.style.display=="none")
+		{
+			click.style.display="block";
+		}
+		else
+		{
+			click.style.display="none";
+		}
+	}
+</script>
+</head>
+<body>
+
+	
+
+
+<nav>
+		<label class="logo">Ankit</label>
+	<ul>
+		<li><a href="first.html">HOME</a></li>
+		<li><a href="java.html">JAVA</a></li>
+		<li><a href="python.html">PYTHON</a></li>
+		<li><a href="#">C++</a></li>
+		<li><a href="#">C</a></li>
+	</ul>
+</nav>
+<div style="width:100%;height:100px;float:left">
+<left>
+<div style="width:25%;float:left;diplay:inline">
+	<div class="dropdown">
+		<button onclick="show_hide()" class="button">TOPIC</button>	
+		<div style="display:none" id="drop-content">
+		<a href="history.html"><i>History of java</i></a>
+		<a href="feature.html"><i>Features of java</i></a>
+		<a href="variable.html"><i>C++ vs java</i></a>
+		<a href="variable.html"><i>Hello Java Program</i></a>
+		<a href="variable.html"><i>Program Internal</i></a>
+		<a href="java.html"><i>how to set path?</i></a>
+		<a href="jdk.html"><i>JDK,JRE,and JVM</i></a>
+		<a href="variable.html"><i>JVM</i></a>
+		<a href="variable.html"><i>Java variables</i></a>
+		<a href="variable.html"><i>Java Data Types</i></a>
+		<a href="variable.html"><i>Unicode System</i></a>
+		<a href="variable.html"><i>Operators</i></a>
+		<a href="variable.html"><i>Keywords</i></a>
+		<h1 style="color:red">Control Statements</h1>
+		<a href="if.html"><i>Java If-else</i></a>
+		<a href="if.html"><i>Java Switch</i></a>
+		<a href="if.html"><i>Java for loop</i></a>
+		<a href="if.html"><i>Java while loop</i></a>
+		<a href="if.html"><i>Java Do While loop</i></a>
+		<a href="if.html"><i>Java Break</i></a>
+		<a href="if.html"><i>Java continue</i></a>
+		<a href="if.html"><i>Java Comments</i></a>
+		<a href="if.html"><i>Java Programs</i></a>
+		<h1 style="color:red">Java Object Class</h1>
+		<a href="if.html"><i>Java OOPs Concepts</i></a>
+		<a href="if.html"><i>Naming Convention</i></a>
+		<a href="if.html"><i>Object and Class</i></a>
+		<a href="if.html"><i>Method</i></a>
+		<a href="if.html"><i>Constructor</i></a>
+		<a href="if.html"><i>Static Keyword</i></a>
+		<a href="if.html"><i>this keyword</i></a>
+		<h1 style="color:red">Java Inheritance</h1>
+		<a href="if.html"><i>Inheritance(IS-A)</i></a>
+		<a href="if.html"><i>Aggregation(HAS-A)</i></a>
+		<h1 style="color:red">Java Polymorphism</h1>
+		<a href="if.html"><i>Method Overloading</i></a>
+		<a href="if.html"><i>Method Overriding</i></a>
+		<a href="if.html"><i>Covariant Return Type </i></a>
+		<a href="if.html"><i>super keyword</i></a>
+		<a href="if.html"><i>Instance Initializer block</i></a>
+		<a href="if.html"><i>final keyword</i></a>
+		<a href="if.html"><i>Runtime Polymorphism</i></a>
+		<a href="if.html"><i>Dynamic Binding</i></a>
+		<a href="if.html"><i>instance operator</i></a>
+		<h1 style="color:red">Java Abstraction</h1>
+		<a href="if.html"><i>Abstract class</i></a>
+		<a href="if.html"><i>interface</i></a>
+		<a href="if.html"><i>Abstract vs interface</i></a>
+		<h1 style="color:red">Java Encapsulation</h1>
+		<a href="if.html"><i>Package</i></a>
+		<a href="if.html"><i>Access Modifiers</i></a>
+		<a href="if.html"><i>Encapsulation</i></a>
+		<h1 style="color:red">Java Array</h1>
+		<a href="if.html"><i>Java Array</i></a>
+		</div>
+	</div>
+	
+</left>
+</div>
+<div style="width:75%;float:left;diplay:inline">
+	<h1><b>Conditional Control Statements:-</h1>
+     
+
+   <h2>If Statement</h2>
+    <p style="font-size:20px;background-color:yellow"> The statement will go inside the block when the condition is true.otherwise it will not execute this block.This is also called a control statement which is use to control the execution of flow.</br> 
+  Syntax of if statement:</br>
+    if(condition){</br>
+// statements (if Block)</br>
+}
+//other statements</br></p>
+ 
+    <h2>If-else Statement</h2>
+     <p style="font-size:20px"> This statement has two block,when the condition is true the statement will go inside the if statement otherwise they will execute the else statement.</br>
+Syntax of if-else statement:</br></br>
+
+if(condition){</br>
+// statements (if Block)
+}</br>
+else{</br>
+// statements (Else block)
+}</br>
+//other statements</br></p>
+
+ 
+     <h2>If-else-if Statement</h2>
+     <p style="font-size:20px"> In this statement if your condition is true then it will go inside the if block.otherwise,They will check else if statement and if the condition is still not true then they will execute the else block.</br></br>
+Syntax of if-else if statement :</br></br>
+  if(condition){</br>
+// statements (if Block)
+}</br>
+else if{</br>
+// statements (Else-If block)
+}</br>
+else{</br>
+//statements(Else Block)
+}</br>//other statements</br></p>
+</div>
+</div>
+</body>
+</html>
+
+
+
